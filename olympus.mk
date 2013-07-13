@@ -60,9 +60,8 @@ PRODUCT_PACKAGES += com.android.future.usb.accessory \
 
 #wlan firmware
 PRODUCT_PACKAGES += \
-	fw_bcmdhd.bin \
-	fw_bcmdhd_apsta.bin \
-	fw_bcmdhd_p2p.bin
+	fw_bcm4329.bin \
+	fw_bcm4329_apsta.bin
 
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
@@ -133,7 +132,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 #wifi
 PRODUCT_PROPERTY_OVERRIDES += \
 	wifi.supplicant_scan_interval=30 \
-	wifi.interface=wlan0
+	wifi.interface=eth0
 
 #bluetooth
 PRODUCT_PROPERTY_OVERRIDES += \
