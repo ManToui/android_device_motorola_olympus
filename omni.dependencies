@@ -1,0 +1,8 @@
+[
+  {
+    "remote":      "CyanogenMod-Atrix",
+    "repository":  "android_kernel_motorola_olympus",
+    "target_path": "kernel/motorola/olympus",
+    "revision":    "omni-4.4"
+  }
+]
