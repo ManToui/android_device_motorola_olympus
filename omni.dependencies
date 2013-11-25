@@ -1,8 +1,20 @@
 [
   {
-    "remote":      "CyanogenMod-Atrix",
+    "remote":      "namantou",
     "repository":  "android_kernel_motorola_olympus",
     "target_path": "kernel/motorola/olympus",
+    "revision":    "cm-10.2"
+  }
+  {
+    "remote":      "namantou",
+    "repository":  "android_vendor_motorola_olympus",
+    "target_path": "vendor/motorola/olympus",
+    "revision":    "omni-4.4"
+  }
+  {
+    "remote":      "namantou",
+    "repository":  "android_device_motorola_olympus",
+    "target_path": "device/motorola/olympus",
     "revision":    "omni-4.4"
   }
 ]
