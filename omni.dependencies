@@ -3,7 +3,7 @@
     "remote":      "namantou",
     "repository":  "android_kernel_motorola_olympus",
     "target_path": "kernel/motorola/olympus",
-    "revision":    "cm-10.2"
+    "revision":    "omni-4.4"
   }
   {
     "remote":      "namantou",
