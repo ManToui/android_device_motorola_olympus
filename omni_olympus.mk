@@ -13,8 +13,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/root/init.target.rc:root/init.target.rc \
     $(LOCAL_PATH)/root/init.target.usb.rc:root/init.target.usb.rc \
     $(LOCAL_PATH)/root/ueventd.olympus.rc:root/ueventd.olympus.rc \
-    $(LOCAL_PATH)/root/fstab.olympus:root/fstab.olympus
-
+    $(LOCAL_PATH)/root/fstab.olympus:root/fstab.olympus \
+    $(LOCAL_PATH)/root/file_contexts:root/file_contexts
 
 # motorola helper scripts
 PRODUCT_COPY_FILES += \
