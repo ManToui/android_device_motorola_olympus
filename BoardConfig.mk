@@ -16,10 +16,6 @@ TARGET_CPU_VARIANT := cortex-a9
 TARGET_ARCH_VARIANT_FPU := vfpv3-d16
 TARGET_CPU_SMP := true
 
-BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_15x24.h\"
-TARGET_RECOVERY_FSTAB := device/motorola/olympus/root/fstab.olympus
-RECOVERY_FSTAB_VERSION := 2
-
 BOARD_HAS_NO_SELECT_BUTTON := true
 
 TARGET_BOOTANIMATION_PRELOAD := true
@@ -92,8 +88,21 @@ TARGET_SCREEN_WIDTH:=540
 TARGET_SCREEN_HEIGHT:=960
 
 #RECOVERY
+BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_15x24.h\"
+TARGET_RECOVERY_FSTAB := device/motorola/olympus/root/fstab.olympus
+RECOVERY_FSTAB_VERSION := 2
+
+TARGET_RECOVERY_INITRC := device/motorola/olympus/init.recovery.rc
+BOARD_CUSTOM_RECOVERY_KEYMAPPING:= ../../device/motorola/olympus/recovery/recovery_ui.c
+
 DEVICE_RESOLUTION:=540x960
 RECOVERY_GRAPHICS_USE_LINELENGTH := true
+
+SP1_NAME := "osh"
+SP1_DISPLAY_NAME := "Webtop"
+SP1_BACKUP_METHOD := files
+SP1_MOUNTABLE := 1
+
 RECOVERY_SDCARD_ON_DATA := true 
 #-- this enables proper handling of /data/media on devices that have this folder for storage (most Honeycomb and devices that originally shipped with ICS like Galaxy Nexus)
 BOARD_HAS_NO_REAL_SDCARD := true 
@@ -106,6 +115,10 @@ TARGET_RECOVERY_PIXEL_FORMAT := "RGB_565"
 #-- to change the colour
 TW_CUSTOM_POWER_BUTTON := 107 
 #-- to get a power button on the home screen of recovery
+
+TW_INTERNAL_STORAGE_PATH := "/emmc"
+TW_INTERNAL_STORAGE_MOUNT_POINT := "emmc"
+
 TW_EXTERNAL_STORAGE_PATH := "/sdcard" 
 #-- default external storage path
 TW_EXTERNAL_STORAGE_MOUNT_POINT := "sdcard" 
