@@ -93,3 +93,37 @@ TARGET_SCREEN_HEIGHT:=960
 
 #RECOVERY
 DEVICE_RESOLUTION:=540x960
+RECOVERY_GRAPHICS_USE_LINELENGTH := true
+RECOVERY_SDCARD_ON_DATA := true 
+#-- this enables proper handling of /data/media on devices that have this folder for storage (most Honeycomb and devices that originally shipped with ICS like Galaxy Nexus)
+BOARD_HAS_NO_REAL_SDCARD := true 
+#-- disables things like sdcard partitioning
+TW_INCLUDE_DUMLOCK := true 
+#-- includes HTC Dumlock for devices that need it
+TARGET_RECOVERY_GUI := true 
+#-- uses gui format instead of ui.xml
+TARGET_RECOVERY_PIXEL_FORMAT := "RGB_565" 
+#-- to change the colour
+TW_CUSTOM_POWER_BUTTON := 107 
+#-- to get a power button on the home screen of recovery
+TW_EXTERNAL_STORAGE_PATH := "/sdcard" 
+#-- default external storage path
+TW_EXTERNAL_STORAGE_MOUNT_POINT := "sdcard" 
+#-- default external mount point
+TW_FLASH_FROM_STORAGE := true 
+#-- enables you to flash zips form the sdcard (You don't neeed o add this it is activated by default)
+TW_HAS_DOWNLOAD_MODE := false 
+#-- to enable download or more precisely enabling usb mass storage
+TW_HAS_NO_RECOVERY_PARTITION := true 
+#-- do this only if you device has no partion to recovery
+TW_INCLUDE_CRYPTO := false
+TW_INCLUDE_JB_CRYPTO := false
+TW_NEVER_UNMOUNT_SYSTEM := true 
+#-- always keeps the system mounted
+TW_NO_BATT_PERCENT := false 
+#-- shows battery percentage
+TW_NO_REBOOT_BOOTLOADER := true 
+#-- disables rebooting into bootloader
+TW_NO_USB_STORAGE := false 
+#-- disabled usb storage
+TW_SDEXT_NO_EXT4 := false
