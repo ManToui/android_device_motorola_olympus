@@ -10,9 +10,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/root/fstab.olympus:root/fstab.olympus
 
 
-# motorola helper scripts
+# helper scripts
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/scripts/pds_perm_fix.sh:system/bin/pds_perm_fix.sh
+    $(LOCAL_PATH)/scripts/pds_perm_fix.sh:system/bin/pds_perm_fix.sh \
+    $(LOCAL_PATH)/scripts/config_olympus_panel.sh:system/bin/config_olympus_panel.sh
 
 # sysctl conf
 PRODUCT_COPY_FILES += \
@@ -59,9 +60,11 @@ PRODUCT_PACKAGES += com.android.future.usb.accessory \
 
 #wlan firmware
 PRODUCT_PACKAGES += \
-	fw_bcmdhd.bin \
-	fw_bcmdhd_apsta.bin \
-	fw_bcmdhd_p2p.bin
+	olympus_fw_bcm4329.bin \
+	olympus_fw_bcm4329_apsta.bin \
+	olympus_fw_bcmdhd.bin \
+	olympus_fw_bcmdhd_apsta.bin \
+	olympus_fw_bcmdhd_p2p.bin
 
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
