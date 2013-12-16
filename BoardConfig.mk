@@ -92,6 +92,8 @@ BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_15x24.h\"
 TARGET_RECOVERY_FSTAB := device/motorola/olympus/root/fstab.olympus
 RECOVERY_FSTAB_VERSION := 2
 
+SKIP_SET_METADATA := true
+
 TARGET_RECOVERY_INITRC := device/motorola/olympus/init.recovery.rc
 BOARD_CUSTOM_RECOVERY_KEYMAPPING:= ../../device/motorola/olympus/recovery/recovery_ui.c
 
