@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012-2013 The CyanogenMod Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- About phone screen,  setting option name-->
+    <string name="mod_version">Omni 版本</string>
+    <string name="mod_version_default">未知版本</string>
+
+    <!-- Main list strings -->
+    <string name="header_category_interface">个性化</string>
+    <string name="performance_settings">性能</string>
+    <string name="notification_light_settings">通知颜色</string>
+    <string name="battery_light_settings">电池颜色</string>
+    <string name="header_button_settings">按钮</string>
+
+    <!-- Volume panel tweaks -->
+    <string name="volume_adjust_sounds_enable_title">音量调整提示音</string>
+    <string name="volume_adjust_sounds_enable_summary">使用音量键调整音量时将播放提示音</string>
+    <string name="link_volume_ringtones">链接铃声与通知的音量</string>
+    <string name="volume_ring_only_description">铃声</string>
+
+    <!-- Advanced reboot options -->
+    <string name="advanced_reboot_title">高级重启</string>
+    <string name="advanced_reboot_summary">解锁设备后，在电源菜单的重启选项下加入重启至恢复模式与引导程序的选择</string>
+
+    <!-- Lockscreen battery ring -->
+    <string name="battery_around_lockscreen_ring">电池环解锁</string>
+
+    <!-- Android debugging over WiFi -->
+    <string name="adb_over_network">网络 ADB 调试</string>
+    <string name="adb_over_network_summary">通过网络接口 (WLAN，USB 网络) 启用 TCP/IP 调试。该设置重启后失效</string>
+
+    <!-- Warning for Adb over Network -->
+    <string name="adb_over_network_warning">警告：网络 ADB 调试启用后，您的设备将会在已连接的网络 (包括 GSM 数据网络) 上被视为是开放的，并有可能被侵入！\n\n请仅在您所信任的网络上使用此功能。\n\n您确实要启用该功能吗？</string>
+    <string name="lockscreen_quick_unlock_control_title">快速解锁</string>
+    <string name="lockscreen_quick_unlock_control_summary">输入正确的PIN/密码时自动解锁</string>
+
+    <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
+    <string name="show_cpu_info">显示 CPU 信息</string>
+    <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
+    <string name="show_cpu_info_summary">屏幕叠加显示当前CPU信息</string>
+
+    <!-- Screen off animation -->
+    <string name="screen_off_animation">关屏动画</string>
+    <string name="screen_off_fadeout">淡出</string>
+    <string name="screen_off_electronbeam">电子束</string>
+    <string name="screen_off_scaledown">缩减</string>
+
+    <!-- AppOps additions -->
+    <string name="appops_settings">Apps 权限</string>
+    <string name="appops_sysapp_beware">警告！</string>
+    <string name="appops_sysapp_warning">改变核心Android组件的权限可能会导致意外的行为。这里需要您自担风险更改设置！</string>
+
+    <!-- Low battery warning policy -->
+    <string name="pref_low_battery_warning_policy_title">电池低电量警告</string>
+    <string name="pref_low_battery_warning_policy_dialog_title">低电量警告通知类型</string>
+    <string name="low_battery_warning_policy_popup_sound">弹出对话框口并提示音</string>
+    <string name="low_battery_warning_policy_notif_sound">通知栏通知提示音</string>
+    <string name="low_battery_warning_policy_popup">只弹出对话框</string>
+    <string name="low_battery_warning_policy_notif">只在通知栏通知</string>
+    <string name="low_battery_warning_policy_sound">只有提示音</string>
+    <string name="battery_prefs_title">选项</string>
+    <string name="battery_stats_title">统计</string>
+
+    <!-- Setting checkbox summary for displaying USB debugging notification -->
+    <string name="adb_notify">USB 调试通知</string>
+    <string name="adb_notify_summary">USB 调试模式连接时将显示一个通知</string>
+
+    <!-- Lockscreen pin shuffle -->
+    <string name="lock_numpad_random_title">更改密码键盘数字的顺序</string>
+    <string name="lock_numpad_random_dialog_title">密码键盘乱序</string>
+    <string name="lock_numpad_random_off">关闭</string>
+    <string name="lock_numpad_random_always">常开</string>
+    <string name="lock_numpad_random_on_request">On request</string>
+
+    <string name="interface_more_title">More\u2026</string>
+    <string name="interface_bars_title">状态栏</string>
+    <string name="interface_menus_title">菜单栏</string>
+    <string name="interface_notification_panel_title">通知栏</string>
+
+    <!-- Battery Icon selection -->
+    <string name="pref_battery_indicator_title">电池状态样式</string>
+    <string name="battery_status_icon_title">图标</string>
+    <string name="battery_bar">电量条</string>
+    <string name="battery_bar_percent">电量条与百分比</string>
+    <string name="battery_circle">环形</string>
+    <string name="battery_circle_percent">环形与百分比</string>
+
+    <!-- Turn on display when power connected; turn off display when power disconnected -->
+    <string name="wake_when_plugged_or_unplugged_title">电源唤醒屏幕</string>
+    <string name="wake_when_plugged_or_unplugged_summary">当接通电源或移除电源是唤醒屏幕</string>
+
+    <!-- security settings menu unlock -->
+    <string name="unlock_menu_unlock_title">菜单键解锁</string>
+    <string name="unlock_menu_unlock_summary">按菜单键解锁手机</string>
+
+    <!-- Stylus Icon -->
+    <string name="stylus_icon_enabled_title">使用触控笔时显示指针</string>
+    <string name="stylus_icon_enabled_summary">使用触控笔悬浮或绘图时将会显示指针</string>
+
+    <!-- Stylus Gestures -->
+    <string name="gestures_settings_title">触控笔手势</string>
+    <string name="category_spen_title">触控笔手势</string>
+    <string name="enable_subcat_title">触控笔</string>
+    <string name="enable_spen_title_head">启用触控笔手势</string>
+    <string name="enable_spen_summary_head">在触控笔按钮按住时允许通过手势而做出自定义操作。警告：应用程序可能无法接受在触控笔按钮按住时的用户输入</string>
+    <string name="gestures_subcat_title">手势</string>
+    <string name="gestures_left_spen_title_head">向左滑动</string>
+    <string name="gestures_left_spen_summary_head">向左滑动自定义操作</string>
+    <string name="gestures_right_spen_title_head">向右滑动</string>
+    <string name="gestures_right_spen_summary_head">向右滑动自定义操作</string>
+    <string name="gestures_up_spen_title_head">向上滑动</string>
+    <string name="gestures_up_spen_summary_head">向上滑动自定义操作</string>
+    <string name="gestures_down_spen_title_head">向下滑动</string>
+    <string name="gestures_down_spen_summary_head">向下滑动自定义操作</string>
+    <string name="gestures_long_spen_title_head">长按</string>
+    <string name="gestures_long_spen_summary_head">长按自定义操作</string>
+    <string name="gestures_double_spen_title_head">双击</string>
+    <string name="gestures_double_spen_summary_head">双击自定义操作</string>
+
+    <!-- Gestures Options -->
+    <string name="gestures_action_empty">无动作</string>
+    <string name="gestures_action_home">转到 主屏幕</string>
+    <string name="gestures_action_back">模拟 返回键</string>
+    <string name="gestures_action_menu">模拟 菜单键</string>
+    <string name="gestures_action_search">调用搜索</string>
+    <string name="gestures_action_recent">打开最近的应用</string>
+
+    <!-- stylus gestures support -->
+    <string name="stylus_app_not_installed">%s 尚未被安装</string>
+
+    <!-- default alarm tone -->
+    <string name="alarm_sound_title">默认的警告音</string>
+    <string name="alarm_sound_dialog_title">默认的警告提示音</string>
+
+    <!-- Message of dialog confirming that user wants to restart their device with a new runtime -->
+    <string name="custom_runtime_warning_title">警告</string>
+    <string name="custom_runtime_warning_message">OmniROM 不提供 ATR 的支持. 这项设置仅用于测试并且可能会造成系统不稳定、死机、数据丢失以及不能正常开机等潜在问题. 访问 &lt;a href=\"http://source.android.com/devices/tech/dalvik/art.html\"&gt;Introducing ART&lt;/a&gt; 获取更多 ART 信息.&lt;br/&gt;&lt;br/&gt;我们不会在你打开并且运行在ART上是提交错误报告.&lt;br/&gt;&lt;br/&gt;你确定要重启并开启ART <xliff:g id="old" example="libdvm.so">%1$s</xliff:g> to <xliff:g id="new" example="libart.so">%2$s</xliff:g>?</string>
+
+</resources>
