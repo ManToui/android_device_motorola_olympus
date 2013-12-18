@@ -112,7 +112,7 @@ SKIP_SET_METADATA := true
 TARGET_RECOVERY_INITRC := device/motorola/olympus/init.recovery.rc
 BOARD_CUSTOM_RECOVERY_KEYMAPPING:= ../../device/motorola/olympus/recovery/recovery_ui.c
 
-DEVICE_RESOLUTION:=540x960
+DEVICE_RESOLUTION :=540x960
 RECOVERY_GRAPHICS_USE_LINELENGTH := true
 
 SP1_NAME := "osh"
